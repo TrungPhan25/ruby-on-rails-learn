@@ -10,5 +10,5 @@
 
 
 10.times do |x|
-    Post.create(title: "Post #{x}", body: "Body #{x}")
+    Post.create(title: "Post #{x}", body: "Body #{x}", user_id: User.first.id)
 end
