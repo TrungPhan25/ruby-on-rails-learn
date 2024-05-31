@@ -12,8 +12,10 @@ default: &default
 
 development:
   <<: *default
-  host: 172.23.0.5
-  database: toby_ruby
+  host: 127.0.0.1
+  #host: 172.23.0.5
+  database: myapp_production
+  #database: toby_ruby
   username: root
   password: cctmcctm
   port: 3306
